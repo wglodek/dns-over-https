@@ -16,6 +16,7 @@ Quickstart
 ----------
 
 .. code-block:: python
+
     >>> from dns_over_https import SecureDNS
     >>> r = SecureDNS()
     >>> r.gethostbyname('www.breakpoint-labs.com')
@@ -27,12 +28,14 @@ Quickstart
     [u'2001:590:100b:182::255e', u'2001:590:100b:18b::255e']
     >>>
 
+
 Installation
 ------------
 
 To install dns_over_https, simply:
 
 .. code-block:: bash
+
     $ pip install dns_over_https
 
 
