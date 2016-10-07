@@ -10,7 +10,8 @@ def resolver():
 class TestSecureDNS(object):
 
     def test_prepare_hostname_valid_domain(self, resolver):
-        assert resolver.prepare_hostname('www.google.com.') == 'www.google.com'.encode('ascii')
+        assert resolver.prepare_hostname('www.google.com.') == \
+            'www.google.com'.encode('ascii')
 
     def test_prepare_hostname_invalid_domain(self, resolver):
         with pytest.raises(InvalidHostName):
