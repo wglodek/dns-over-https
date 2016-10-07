@@ -26,7 +26,7 @@ class InvalidHostName(Exception):
 
 
 class SecureDNS(object):
-    '''Resolve domains using Google's Public DNS over HTTPS'''
+    '''Resolve domains using Google's Public DNS-over-HTTPS API'''
 
     def __init__(
         self,
