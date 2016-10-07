@@ -12,7 +12,7 @@ setup(
     name='dns_over_https',
     version=version,
     description="Python client for Google's Public DNS-over-HTTPS service",
-    long_description=read('README.md'),
+    long_description=read('README.rst'),
     keywords="google dns https",
     author='William Glodek',
     author_email='wglodek@breakpoint-labs.com',
